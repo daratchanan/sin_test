@@ -1,0 +1,10 @@
+{
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // write emmet html in javascript
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // file auto save
+  "files.autoSave": "onFocusChange"
+}

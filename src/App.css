@@ -1,0 +1,38 @@
+body {
+  background-color: #fafbfc;
+}
+
+.input-number {
+  display: inline-block;
+  border: 1px solid #eee;
+  height: 2.1em;
+  background: #fff;
+  padding: 1px;
+}
+
+.input-number button {
+  display: inline-block;
+  width: 1.4em;
+  font-weight: 300;
+  height: 100%;
+  line-height: 0.1em;
+  font-size: 1.4em;
+  padding: 0.2em !important;
+  background: #eee;
+  color: #333;
+  border: none;
+}
+
+.input-number button:focus {
+  outline: none;
+}
+
+.input-number div {
+  display: inline-block;
+  width: 3em;
+  height: 100%;
+  text-align: center;
+  border: 0;
+  background: transparent;
+  color: #000;
+}
