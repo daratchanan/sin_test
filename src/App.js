@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./App.css";
+import Navbar from "./Navbar";
+import Todo from "./Todo";
 
 export default class App extends Component {
   constructor(props) {
@@ -64,6 +66,8 @@ export default class App extends Component {
   render() {
     return (
       <div className="container">
+        <Todo />
+        <Navbar />
         <div className="row">
           {this.state.data.map((obj) => (
             <div className="col-3 my-3">
@@ -73,6 +77,7 @@ export default class App extends Component {
                   +
                 </button>
                 <div>{obj.userId}</div>
+                {/* <div>{obj.userId}</div> */}
                 <button onClick={() => this.decrease(this.state.initial)}>
                   -
                 </button>
